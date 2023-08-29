@@ -1,3 +1,3 @@
 FROM alpine
-RUN apk add ffmpeg
+RUN apt install ffmpeg
 CMD ["echo", "Hello StackOverflow!"]
